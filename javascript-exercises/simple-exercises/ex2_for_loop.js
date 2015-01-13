@@ -4,7 +4,7 @@
 function maxOfThree(myArray){
   var max = 0;
   
-  for(i = 0; i < myArray.length; i++ )
+  for(i = 0; i < myArray.length; i++ ) {
     if(myArray[i] > max){
       max = myArray[i];
     }
